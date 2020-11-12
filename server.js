@@ -2,7 +2,7 @@ var express = require('express');
 const { truncate } = require('fs');
 var { createProxyMiddleware } = require('http-proxy-middleware');
 var path = require('path');
-var port = 80;
+var port = 8000;
 var bodyParser = require('body-parser');
 
 var app = express();
